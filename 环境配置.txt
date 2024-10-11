@@ -1,0 +1,10 @@
+
+ conda create -n bertt python=3.9
+
+ conda activate bertt
+
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+
+pip install transformers torch scikit-learn matplotlib
+
+pip install accelerate -U
